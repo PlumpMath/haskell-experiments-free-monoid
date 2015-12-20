@@ -3,4 +3,4 @@ module Main where
 import Lib
 
 main :: IO ()
-main = someFunc
+main = putStrLn "yeah, not really an app."
