@@ -1,8 +1,8 @@
-name:                haskell-free-monoid
+name:                haskell-experiments-free-monoid
 version:             0.1.0.0
 synopsis:            Initial project template from stack
 description:         Please see README.md
-homepage:            http://github.com/githubuser/haskell-free-monoid#readme
+homepage:            http://github.com/githubuser/haskell-experiments-free-monoid#readme
 license:             PublicDomain
 license-file:        LICENSE
 author:              Greg Wiley <aztex.rex@jammm.com>
@@ -19,23 +19,23 @@ library
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
-executable haskell-free-monoid-exe
+executable haskell-experiments-free-monoid-exe
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
-                     , haskell-free-monoid
+                     , haskell-experiments-free-monoid
   default-language:    Haskell2010
 
-test-suite haskell-free-monoid-test
+test-suite haskell-experiments-free-monoid-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
   build-depends:       base
-                     , haskell-free-monoid
+                     , haskell-experiments-free-monoid
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 
 source-repository head
   type:     git
-  location: https://github.com/aztecrex/haskell-free-monoid
+  location: https://github.com/aztecrex/haskell-experiments-free-monoid
